@@ -24,7 +24,7 @@ nav {
 
 nav .logo h1 {
     margin: 0;
-    font-size: 1.8em;
+    font-size: 1.6em; /* Reduced font size */
 }
 
 nav .menu {
@@ -50,29 +50,29 @@ nav .menu a:hover {
 }
 
 .hero {
-    background: #333;
+    background: #333; /* Changed from image to solid color */
     color: white;
-    padding: 60px 20px;
-    text-align: center;
+    padding: 60px 20px; /* Adjusted padding */
+    text-align: left; /* Align text to the left */
     position: relative;
-    min-height: 300px;
+    min-height: 300px; /* Set a minimum height */
 }
 
 .hero-content {
     position: relative;
     z-index: 1;
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 800px; /* Limit the width of content */
+    margin: 0 auto; /* Center content horizontally */
 }
 
 .hero-content h2 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2.2em; /* Reduced font size */
     font-weight: 700;
 }
 
 .hero-content p {
-    font-size: 1.2em;
+    font-size: 1.1em; /* Slightly smaller font size */
     margin: 20px 0;
 }
 
@@ -94,17 +94,18 @@ nav .menu a:hover {
     padding: 50px 20px;
     max-width: 1200px;
     margin: 0 auto;
-    text-align: left;
+    text-align: left; /* Align text to the left */
 }
 
 .info-section h2 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    font-size: 1.8em; /* Reduced font size */
+    margin-bottom: 15px; /* Adjusted spacing */
 }
 
 .info-section p {
-    font-size: 1.2em;
-    margin: 0;
+    font-size: 1em; /* Reduced font size */
+    margin: 0 0 20px 0; /* Margin adjusted for readability */
+    max-width: 800px; /* Limited width for better readability */
 }
 
 .contact-section {
@@ -112,16 +113,16 @@ nav .menu a:hover {
     padding: 50px 20px;
     max-width: 1200px;
     margin: 0 auto;
-    text-align: left;
+    text-align: left; /* Align text to the left */
 }
 
 .contact-section h2 {
-    font-size: 2.5em;
+    font-size: 1.8em; /* Reduced font size */
     margin-bottom: 20px;
 }
 
 .contact-section p {
-    font-size: 1.2em;
+    font-size: 1em; /* Reduced font size */
     margin-bottom: 30px;
 }
 
@@ -145,7 +146,7 @@ nav .menu a:hover {
     padding: 12px 25px;
     border: none;
     border-radius: 5px;
-    font-size: 1.1em;
+    font-size: 1em; /* Reduced font size */
     cursor: pointer;
     transition: background 0.3s ease;
 }

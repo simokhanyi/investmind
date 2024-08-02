@@ -50,10 +50,10 @@ nav .menu a:hover {
 }
 
 .hero {
-    background: #333; /* Changed from image to solid color */
+    background: url('background.jpg') no-repeat center center/cover;
     color: white;
-    padding: 60px 20px; /* Adjusted padding */
-    text-align: left; /* Align text to the left */
+    padding: 60px 20px;
+    text-align: left;
     position: relative;
     min-height: 300px; /* Set a minimum height */
 }
@@ -61,8 +61,8 @@ nav .menu a:hover {
 .hero-content {
     position: relative;
     z-index: 1;
-    max-width: 800px; /* Limit the width of content */
-    margin: 0 auto; /* Center content horizontally */
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .hero-content h2 {
@@ -76,6 +76,11 @@ nav .menu a:hover {
     margin: 20px 0;
 }
 
+.centered-content {
+    text-align: center;
+    margin: 20px 0;
+}
+
 .cta-button {
     background: #ff6600;
     color: white;
@@ -84,6 +89,7 @@ nav .menu a:hover {
     border-radius: 5px;
     font-weight: bold;
     transition: background 0.3s ease;
+    display: inline-block;
 }
 
 .cta-button:hover {
@@ -94,18 +100,18 @@ nav .menu a:hover {
     padding: 50px 20px;
     max-width: 1200px;
     margin: 0 auto;
-    text-align: left; /* Align text to the left */
+    text-align: left;
 }
 
 .info-section h2 {
-    font-size: 1.8em; /* Reduced font size */
-    margin-bottom: 15px; /* Adjusted spacing */
+    font-size: 1.8em;
+    margin-bottom: 15px;
 }
 
 .info-section p {
-    font-size: 1em; /* Reduced font size */
-    margin: 0 0 20px 0; /* Margin adjusted for readability */
-    max-width: 800px; /* Limited width for better readability */
+    font-size: 1em;
+    margin: 0 0 20px 0;
+    max-width: 800px;
 }
 
 .contact-section {
@@ -113,16 +119,16 @@ nav .menu a:hover {
     padding: 50px 20px;
     max-width: 1200px;
     margin: 0 auto;
-    text-align: left; /* Align text to the left */
+    text-align: left;
 }
 
 .contact-section h2 {
-    font-size: 1.8em; /* Reduced font size */
+    font-size: 1.8em;
     margin-bottom: 20px;
 }
 
 .contact-section p {
-    font-size: 1em; /* Reduced font size */
+    font-size: 1em;
     margin-bottom: 30px;
 }
 
@@ -146,7 +152,7 @@ nav .menu a:hover {
     padding: 12px 25px;
     border: none;
     border-radius: 5px;
-    font-size: 1em; /* Reduced font size */
+    font-size: 1em;
     cursor: pointer;
     transition: background 0.3s ease;
 }
